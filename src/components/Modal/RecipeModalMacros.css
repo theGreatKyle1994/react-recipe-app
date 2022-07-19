@@ -1,0 +1,15 @@
+.modal-macros-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: 0.5s ease-out 0s 1 slideDown;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-60%) scale(0);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}

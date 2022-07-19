@@ -1,0 +1,36 @@
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.info-blipColor {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.info-title,
+.info-value {
+  font-size: 1.1em;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.info-title {
+  border-radius: 10px 0 0 10px;
+  background-color: #deb881;
+  margin-left: 5px;
+}
+
+.info-image {
+  width: auto;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.info-value {
+  border-radius: 0 10px 10px 0;
+  background-color: #f6cd90;
+}

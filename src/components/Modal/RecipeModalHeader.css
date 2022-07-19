@@ -1,0 +1,66 @@
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #deb881;
+  border-radius: 10px 10px 0 0;
+  padding: 60px 0 40px 0;
+  font-size: 1.1em;
+  background: no-repeat center center;
+  background-size: 100%;
+  transition-property: background-size;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.modal-header:hover {
+  background-size: 102%;
+}
+
+.modal-exit:hover,
+.modal-exit:hover:active {
+  fill: #deb881;
+  transform: scale(1.1);
+}
+
+.modal-title {
+  color: white;
+  text-shadow: 3px 3px black;
+  font-size: 2.25em;
+  height: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.modal-title-source {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  font-size: 1.2em;
+  width: 100%;
+  font-style: italic;
+  font-weight: 600;
+  padding: 5px 0;
+  background-color: #deb781ab;
+}
+
+@media (max-width: 2000px) {
+  .modal-header {
+    height: 70px;
+    padding: 50px 0 30px 0;
+  }
+  .modal-title {
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+  }
+  .modal-title-source {
+    font-size: 1em;
+    text-shadow: 1px 1px black;
+  }
+}

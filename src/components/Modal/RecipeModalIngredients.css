@@ -1,0 +1,26 @@
+.modal-ingredients-container {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+  margin-bottom: 15px;
+  animation: 0.5s ease-out 0s 1 slideDown;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-60%) scale(0);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 2000px) {
+  .modal-ingredients-container {
+    width: 100%;
+  }
+}

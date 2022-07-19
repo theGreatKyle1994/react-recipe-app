@@ -1,0 +1,18 @@
+.btn {
+  font-size: 1.25em;
+  text-shadow: 1px 1px 1px #deb881;
+  padding: 10px 20px;
+  margin: 0 15px;
+  border: 1px solid #deb881;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fffbf0;
+}
+
+.btn:hover {
+  box-shadow: 0 0 1px 1px #deb881;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}

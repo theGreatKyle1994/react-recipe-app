@@ -1,0 +1,14 @@
+.tile-collection-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+ @media (max-width: 2000px) {
+  .tile-collection-container {
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+ }

@@ -1,0 +1,86 @@
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 10px 7px;
+  border: 1px solid #deb881;
+  border-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.tile-container:hover {
+  box-shadow: 0 0 2px 2px #deb881;
+}
+
+.tile-image {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tile-title {
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 11px 11px 0 0;
+  border-bottom: 1px solid #deb881;
+  text-align: center;
+  width: 100%;
+  font-size: 1.1em;
+  text-shadow: 2px 1px #deb881;
+  background-color: #ffedc6;
+}
+
+.tile-info-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+.tile-calories-info,
+.tile-ingredients-info {
+  background-color: #deb881;
+  padding: 10px;
+  font-style: italic;
+}
+
+.tile-calories-info {
+  border-radius: 0 0 0 10px;
+}
+
+.tile-ingredients-info {
+  border-radius: 0 0 10px 0;
+}
+
+.tile-calories,
+.tile-ingredients {
+  background-color: #f6cd90;
+  padding: 10px;
+}
+
+.tile-calories {
+  border-radius: 0 10px 0 0;
+}
+
+.tile-ingredients {
+  border-radius: 10px 0 0 0;
+}
+
+@media (max-width: 2000px) {
+  .tile-container {
+    width: 350px;
+    height: 350px;
+  }
+}
